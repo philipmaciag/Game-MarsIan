@@ -1,0 +1,80 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Unity-generated files to ignore
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Pp]ackages/
+/[Pp]roject[Ss]ettings/
+
+# MemoryCaptures can get excessive in size and may contain sensitive data
+/[Mm]emoryCaptures/
+
+# Recordings can get excessive in size
+/[Rr]ecordings/
+
+# Ignore Burst compiler-generated files
+.runtime/com.burst/**/libburst-llvm-16.dylib
+
+# Ignore temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore Addressables packed files
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Uncomment this line if you wish to ignore the Asset Store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Ignore JetBrains Rider plugin files
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Ignore Visual Studio cache and project files
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Ignore Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Ignore Unity3D crash report files
+sysinfo.txt
+
+# Ignore build output files
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.vcxproj
+*.sln.DotSettings.user

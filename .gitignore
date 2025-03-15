@@ -1,0 +1,36 @@
+# Ignore the Burst compiler-generated file
+temp/
+Library/
+Logs/
+UserSettings/
+Packages/*
+ProjectSettings/*
+
+# Ignore burst .dylib files
+.runtime/com.burst/**/libburst-llvm-16.dylib
+
+# Ignore builds
+Builds/
+Build/
+*.apk
+*.aab
+*.unitypackage
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+*.sln
+*.csproj
+*.pidb
+*.suo
+*.user
+*.booproj
+*.svd
+
+# Ignore generated Visual Studio files
+.vscode/
+.idea/
+*.vcxproj
+*.sln.DotSettings.user

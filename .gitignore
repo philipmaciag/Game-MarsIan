@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This .gitignore file should be placed at the root of your Unity project directory
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 
@@ -68,13 +69,48 @@ sysinfo.txt
 *.unitypackage
 *.unitypackage.meta
 *.app
+=======
+# Ignore the Burst compiler-generated file
+temp/
+Library/
+Logs/
+UserSettings/
+Packages/*
+ProjectSettings/*
+
+# Ignore burst .dylib files
+.runtime/com.burst/**/libburst-llvm-16.dylib
+
+# Ignore builds
+Builds/
+Build/
+*.apk
+*.aab
+*.unitypackage
+>>>>>>> origin/mars-material
 
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
 
 # Ignore IDE and editor files
+<<<<<<< HEAD
 .vscode/
 .idea/
 *.vcxproj
 *.sln.DotSettings.user
+=======
+*.sln
+*.csproj
+*.pidb
+*.suo
+*.user
+*.booproj
+*.svd
+
+# Ignore generated Visual Studio files
+.vscode/
+.idea/
+*.vcxproj
+*.sln.DotSettings.user
+>>>>>>> origin/mars-material

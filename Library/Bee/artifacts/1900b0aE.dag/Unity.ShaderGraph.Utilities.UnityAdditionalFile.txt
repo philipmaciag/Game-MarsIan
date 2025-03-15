@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\Unity Games - Github\Marsian\Game-MarsIan
+=======
+E:\Projekty\Github\Marsian\Game-MarsIan
+>>>>>>> origin/mars-material
